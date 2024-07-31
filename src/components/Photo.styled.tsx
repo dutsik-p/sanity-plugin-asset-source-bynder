@@ -9,7 +9,7 @@ export const Root = styled.div`
   background-size: cover;
   position: relative;
   outline: none !important;
-  border: ${({theme}) => `1px solid ${theme.sanity.color.card.enabled.border}`};
+  border: 1px solid var(--card-border-color);
   box-sizing: content-box;
   user-drag: none;
 
@@ -30,16 +30,12 @@ export const CreditLineLink = styled.a`
 `
 
 export const CreditLine = styled(Card)`
-  ${({theme}) => `
-     --creditline-fg: ${theme.sanity.color.card.enabled.fg};
-     --creditline-bg: ${theme.sanity.color.card.enabled.bg};
-   `};
   user-drag: none;
   position: absolute;
-  background-color: var(--creditline-bg);
+  background-color: var(--card-bg-color);
   bottom: 0;
 
   [data-ui='Text'] {
-    color: var(--creditline-fg);
+    color: var(--card-fg-color);
   }
 `
