@@ -1,11 +1,15 @@
 {
   "name": "sanity-plugin-asset-source-bynder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "keywords": [
     "sanity",
     "sanity-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dutsik-p/sanity-plugin-asset-source-bynder.git"
+  },
   "license": "MIT",
   "author": "Ivan Adutskevich <dutsik@gmail.com>",
   "sideEffects": false,
